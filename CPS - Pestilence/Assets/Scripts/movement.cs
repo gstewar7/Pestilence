@@ -40,7 +40,7 @@ public class movement : MonoBehaviour
         else
         {
             moveDir = transform.forward * x * (speed * 0.6f);
-            if(Input.GetButtonDown("Jump"))
+            if(Input.GetButtonDown("Jump") && x < 0)
                 transform.Rotate(0, 180f, 0);
             
         }
