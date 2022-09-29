@@ -51,8 +51,11 @@ public class movement : MonoBehaviour
         transform.Rotate(0, y * rotationSpeed, 0 );
 
         if(x != 0 || y != 0)
-            anim.Play("WalkForwardBattle");
+        {   
+            Debug.Log("a");
+            anim.Play("Walk");
+        }
         else
-            anim.Play("Idle_Battle");
+            anim.Play("Idle");
     }
 }
