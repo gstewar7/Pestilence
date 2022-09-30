@@ -20,7 +20,7 @@ public class Player : MonoBehaviour
     {
         if(currentHealth < temp)
         {
-            anim.Play("Hit");
+            anim.SetTrigger("Hit");
             temp = currentHealth;
         }
     }

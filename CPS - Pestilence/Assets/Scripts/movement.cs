@@ -10,9 +10,13 @@ public class movement : MonoBehaviour
     public float runSpeed = 3f;
     public float rotationSpeed = 0.4f;
     public Animator anim;
+    public float currentHealth = 100;
+    private float temp;
+    
     // Start is called before the first frame update
     void Start()
     {
+        temp = currentHealth;
         myController = GetComponent<CharacterController>();
         anim = GetComponent<Animator>();
     }
@@ -46,6 +50,11 @@ public class movement : MonoBehaviour
         }
         Vector3 rotate = new Vector3(0,0, y);
 
+        // if(currentHealth < temp)
+        // {
+        //     anim.SetTrigger("Hit");
+        //     temp = currentHealth;
+        // }
         myController.Move(moveDir*Time.deltaTime-Vector3.up*0.1f);
 
         transform.Rotate(0, y * rotationSpeed, 0 );
@@ -53,9 +62,9 @@ public class movement : MonoBehaviour
         if(x != 0 || y != 0)
         {   
             Debug.Log("a");
-            anim.Play("Walk");
+            anim.SetBool("isWalking",true);
         }
         else
-            anim.Play("Idle");
+            anim.SetBool("isWalking",false);
     }
 }
