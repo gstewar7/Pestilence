@@ -5,7 +5,7 @@ using UnityEngine;
 public class SwitchCam : MonoBehaviour
 {
     public Transform Player;
-    private Camera thisCam;
+    public Camera thisCam;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,8 +20,9 @@ public class SwitchCam : MonoBehaviour
     {
         if(other.CompareTag("Player"))
         {
-            Debug.Log(Camera.current.name);
-            Camera.current.enabled = false;
+             foreach (var cam in Camera.allCameras) {
+                cam.enabled = false;
+            }
             thisCam.enabled = true;
         }
     }
