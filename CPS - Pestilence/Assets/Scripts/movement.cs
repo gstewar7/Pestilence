@@ -8,7 +8,7 @@ public class movement : MonoBehaviour
     public float speed = 1.6f;
     private float defaultSpeed = 1.6f;
     public float runSpeed = 3f;
-    public float rotationSpeed = 0.4f;
+    public float rotationSpeed = 100f;
     public Animator anim;
     public float currentHealth = 100;
     private float temp;
@@ -31,22 +31,31 @@ public class movement : MonoBehaviour
         if(r > 0)
         {
             speed = runSpeed;
+            anim.SetBool("isRunning", true);
         }
         else
+        {
             speed = defaultSpeed; 
-
+            anim.SetBool("isRunning", false);
+        }
         Vector3 moveDir = new Vector3(0f,0f,0f);
 
         if(x > 0)
         {
+            Debug.Log("X");
             moveDir = transform.forward * x * speed;
         }
         else
         {
             moveDir = transform.forward * x * (speed * 0.6f);
-            if(Input.GetButtonDown("Jump") && x < 0)
+            if(Input.GetButtonDown("Jump"))
+            {
                 transform.Rotate(0, 180f, 0);
-            
+                if(r == 0)
+                {
+                    anim.SetTrigger("slowTurn");
+                }
+            }
         }
         Vector3 rotate = new Vector3(0,0, y);
 
@@ -57,7 +66,7 @@ public class movement : MonoBehaviour
         // }
         myController.Move(moveDir*Time.deltaTime-Vector3.up*0.1f);
 
-        transform.Rotate(0, y * rotationSpeed, 0 );
+        transform.Rotate(0, y * rotationSpeed *Time.deltaTime, 0 );
 
         if(x != 0 || y != 0)
         {   
