@@ -24,5 +24,7 @@ public class Player : MonoBehaviour
             anim.SetTrigger("Hit");
             temp = currentHealth;
         }
+
+        
     }
 }
