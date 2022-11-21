@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
     public float currentHealth = 100;
     private Animator anim;
     private float temp;
+    public bool hasLighter = false; 
     // Start is called before the first frame update
     void Start()
     {
