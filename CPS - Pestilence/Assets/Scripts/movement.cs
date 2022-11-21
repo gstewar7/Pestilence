@@ -42,7 +42,7 @@ public class movement : MonoBehaviour
 
         if(x > 0)
         {
-            Debug.Log("X");
+            //Debug.Log("X");
             moveDir = transform.forward * x * speed;
         }
         else
@@ -70,7 +70,7 @@ public class movement : MonoBehaviour
 
         if(x != 0 || y != 0)
         {   
-            Debug.Log("a");
+            //Debug.Log("a");
             anim.SetBool("isWalking",true);
         }
         else

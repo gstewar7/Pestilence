@@ -7,11 +7,18 @@ public class DoorButtons : MonoBehaviour
 	private bool InZone = false;
     private bool Pressed = false;
     public LockedDoor lockedDoor;
+    public GameObject doorSigil;    
+    public Renderer thisRend;
+    public float minimum = 0f;
+    public float maximum =  1.0f;
+    float progress = 1f;
 
 	// Start is called before the first frame update
 	void Start()
 	{
-
+        GameObject child = transform.GetChild(0).gameObject;
+        thisRend = child.GetComponent<Renderer>();
+        //thisRend = GetComponentInChildren<Renderer>();
 	}
 
 	// Update is called once per frame
@@ -25,6 +32,12 @@ public class DoorButtons : MonoBehaviour
         {
             Pressed = true;
             lockedDoor.addPress();
+            doorSigil.SetActive(true);
+            Burn();
+            Debug.Log("Pressed");
+            //StartCoroutine(Wait());
+            StartCoroutine(Burn());
+            StartCoroutine(Wait());
         }
     }
 
@@ -42,4 +55,25 @@ public class DoorButtons : MonoBehaviour
             InZone = false;
         }
     }
+
+    IEnumerator Wait()
+    {
+        
+        Debug.Log("Wait called");
+        yield return new WaitForSeconds(2);
+        Object.Destroy(this.gameObject);
+    }
+    IEnumerator Burn()
+    {
+        Debug.Log("Burn called");
+        
+        while(progress > 0f)
+        {
+            progress -= 0.3f * Time.deltaTime;
+            thisRend.material.SetFloat("_Progress", progress);
+            yield return null;
+        }
+    }
+
 }
+
