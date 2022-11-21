@@ -12,6 +12,7 @@ public class DoorButtons : MonoBehaviour
     public float minimum = 0f;
     public float maximum =  1.0f;
     float progress = 1f;
+    public Transform Player;
 
 	// Start is called before the first frame update
 	void Start()
