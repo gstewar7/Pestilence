@@ -13,13 +13,17 @@ public class DoorButtons : MonoBehaviour
     public float maximum =  1.0f;
     float progress = 1f;
     public Transform Player;
-
+    private bool hasLighter;
+    
+    public GameObject message; 
 	// Start is called before the first frame update
 	void Start()
 	{
         GameObject child = transform.GetChild(0).gameObject;
         thisRend = child.GetComponent<Renderer>();
+        hasLighter = Player.GetComponent<Player>().hasLighter;
         //thisRend = GetComponentInChildren<Renderer>();
+        message.SetActive(false);
 	}
 
 	// Update is called once per frame
@@ -31,14 +35,22 @@ public class DoorButtons : MonoBehaviour
         } 
         else if (Input.GetKeyDown(KeyCode.E) && InZone)
         {
-            Pressed = true;
-            lockedDoor.addPress();
-            doorSigil.SetActive(true);
-            Burn();
-            Debug.Log("Pressed");
-            //StartCoroutine(Wait());
-            StartCoroutine(Burn());
-            StartCoroutine(Wait());
+            
+            hasLighter = Player.GetComponent<Player>().hasLighter;
+            if(hasLighter)
+            {
+                Pressed = true;
+                lockedDoor.addPress();
+                doorSigil.SetActive(true);
+                Burn();
+                Debug.Log("Pressed");
+                //StartCoroutine(Wait());
+                StartCoroutine(Burn());
+                StartCoroutine(Wait());
+            }
+            else{
+                StartCoroutine(NeedLighter());
+            }
         }
     }
 
@@ -75,6 +87,13 @@ public class DoorButtons : MonoBehaviour
             yield return null;
         }
     }
-
+    IEnumerator NeedLighter()
+    {
+        message.SetActive(true);
+       // StartCoroutine(Wait());
+        yield return new WaitForSeconds(2f);
+        Debug.Log("Finished");
+        message.SetActive(false);
+    }
 }
 

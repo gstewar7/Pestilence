@@ -13,6 +13,7 @@ public class movement : MonoBehaviour
     public float currentHealth = 100;
     private float temp;
     
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -28,16 +29,16 @@ public class movement : MonoBehaviour
         float y = Input.GetAxisRaw("Horizontal");
         float r = Input.GetAxisRaw("Run");
 
-        if(r > 0)
-        {
-            speed = runSpeed;
-            anim.SetBool("isRunning", true);
-        }
-        else
-        {
-            speed = defaultSpeed; 
-            anim.SetBool("isRunning", false);
-        }
+        // if(r > 0)
+        // {
+        //     speed = runSpeed;
+        //     anim.SetBool("isRunning", true);
+        // }
+        // else
+        // {
+        //     speed = defaultSpeed; 
+        //     anim.SetBool("isRunning", false);
+        // }
         Vector3 moveDir = new Vector3(0f,0f,0f);
 
         if(x > 0)

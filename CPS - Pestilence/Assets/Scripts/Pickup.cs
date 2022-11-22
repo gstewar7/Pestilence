@@ -58,6 +58,7 @@ public class Pickup : MonoBehaviour
     IEnumerator Wait()
     {
         hasLighter = true;
+        Player.GetComponent<Player>().hasLighter = true;
         message.SetActive(true);
        // StartCoroutine(Wait());
         yield return new WaitForSeconds(2f);
