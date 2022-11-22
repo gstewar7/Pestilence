@@ -42,7 +42,6 @@ public class movement : MonoBehaviour
 
         if(x > 0)
         {
-            //Debug.Log("X");
             moveDir = transform.forward * x * speed;
         }
         else
