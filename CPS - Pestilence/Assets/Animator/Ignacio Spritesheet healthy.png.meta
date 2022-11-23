@@ -1,0 +1,672 @@
+fileFormatVersion: 2
+guid: 8a0ce2c026e07ad4aa6ce92ff0982b59
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ignacio Spritesheet healthy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1496
+        width: 944
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1008e55cc0ebca248b5c2a4ad520eff5
+      internalID: -1212564244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio Spritesheet healthy_1
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1496
+        width: 944
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83cab47db25ec245a2fb69e7a492368
+      internalID: 457585088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio Spritesheet healthy_2
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1496
+        width: 944
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f89b9d25922cb4fb38e909cbefc71a
+      internalID: 170258934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio Spritesheet healthy_3
+      rect:
+        serializedVersion: 2
+        x: 2832
+        y: 1496
+        width: 944
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cd8370b731fb74eb75a928817cab2e
+      internalID: 1567609876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio Spritesheet healthy_4
+      rect:
+        serializedVersion: 2
+        x: 3776
+        y: 1496
+        width: 944
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa324f7a4dd0b949baf1cb965a12753
+      internalID: -1221561694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio Spritesheet healthy_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1122
+        width: 944
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee7b1923af2f814b808acccd7808c8d
+      internalID: 20891300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio Spritesheet healthy_6
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1122
+        width: 944
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36cc17d50a39530438642354bc47476f
+      internalID: 328845395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio Spritesheet healthy_7
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1122
+        width: 944
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede1142a15e8ad44f8370dd535bf1532
+      internalID: -746287993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio Spritesheet healthy_8
+      rect:
+        serializedVersion: 2
+        x: 2832
+        y: 1122
+        width: 944
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7200666dca556154298061e7c41bd995
+      internalID: 658052457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio Spritesheet healthy_9
+      rect:
+        serializedVersion: 2
+        x: 3776
+        y: 1122
+        width: 944
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59a7799140cf5f438d14fb7c18dacd7
+      internalID: 393548004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio Spritesheet healthy_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 748
+        width: 944
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5dfa9ede540254d8312df177a13d2c
+      internalID: 1192641051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio Spritesheet healthy_11
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 748
+        width: 944
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1ad3e958a92e94197cd9891a98f1dd
+      internalID: 1316201628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio Spritesheet healthy_12
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 748
+        width: 944
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253d217eb8739a042b7e3e400eb18947
+      internalID: 1305413363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio Spritesheet healthy_13
+      rect:
+        serializedVersion: 2
+        x: 2832
+        y: 748
+        width: 944
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c61ff7ad4fef14d938c81897c0e49e
+      internalID: 1834463090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio Spritesheet healthy_14
+      rect:
+        serializedVersion: 2
+        x: 3776
+        y: 748
+        width: 944
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac0426d1cfd4df47b264ac8e3bff04b
+      internalID: -167295595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio Spritesheet healthy_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 374
+        width: 944
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0e75e2cf12dfd4c97525e9efacfd65
+      internalID: -1565889361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio Spritesheet healthy_16
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 374
+        width: 944
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a77132238441a4d8d0320f55158809
+      internalID: -408304418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio Spritesheet healthy_17
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 374
+        width: 944
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71164e36720406a4582be88dabcb310b
+      internalID: 1878012159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio Spritesheet healthy_18
+      rect:
+        serializedVersion: 2
+        x: 2832
+        y: 374
+        width: 944
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86efd2694d99acf4ca914039d3bb5ec7
+      internalID: 1723810429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio Spritesheet healthy_19
+      rect:
+        serializedVersion: 2
+        x: 3776
+        y: 374
+        width: 944
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab96dc1c2a519747b9fd2a60acfd789
+      internalID: -1599284819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio Spritesheet healthy_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 944
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df90c2b6acab26e4aadb6e172e5bd13c
+      internalID: 1316438747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio Spritesheet healthy_21
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 0
+        width: 944
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0681fa64f39234aa18105e2e09037e
+      internalID: -480162457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio Spritesheet healthy_22
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 0
+        width: 944
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd5bc261e9eb7c4f9a25736cc283a62
+      internalID: 509098538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio Spritesheet healthy_23
+      rect:
+        serializedVersion: 2
+        x: 2832
+        y: 0
+        width: 944
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571d37f2752b4d04e8a6ae8794aaa250
+      internalID: -1580011863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio Spritesheet healthy_24
+      rect:
+        serializedVersion: 2
+        x: 3776
+        y: 0
+        width: 944
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39c74fd31171c64999cacf1d30c2c38
+      internalID: 495809890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e1f7fc09d9f4e684eb83f0cfc26e836c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ignacio Spritesheet healthy_21: -480162457
+      Ignacio Spritesheet healthy_19: -1599284819
+      Ignacio Spritesheet healthy_14: -167295595
+      Ignacio Spritesheet healthy_13: 1834463090
+      Ignacio Spritesheet healthy_15: -1565889361
+      Ignacio Spritesheet healthy_1: 457585088
+      Ignacio Spritesheet healthy_20: 1316438747
+      Ignacio Spritesheet healthy_22: 509098538
+      Ignacio Spritesheet healthy_17: 1878012159
+      Ignacio Spritesheet healthy_18: 1723810429
+      Ignacio Spritesheet healthy_0: -1212564244
+      Ignacio Spritesheet healthy_8: 658052457
+      Ignacio Spritesheet healthy_6: 328845395
+      Ignacio Spritesheet healthy_24: 495809890
+      Ignacio Spritesheet healthy_11: 1316201628
+      Ignacio Spritesheet healthy_3: 1567609876
+      Ignacio Spritesheet healthy_9: 393548004
+      Ignacio Spritesheet healthy_10: 1192641051
+      Ignacio Spritesheet healthy_16: -408304418
+      Ignacio Spritesheet healthy_2: 170258934
+      Ignacio Spritesheet healthy_7: -746287993
+      Ignacio Spritesheet healthy_23: -1580011863
+      Ignacio Spritesheet healthy_12: 1305413363
+      Ignacio Spritesheet healthy_5: 20891300
+      Ignacio Spritesheet healthy_4: -1221561694
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

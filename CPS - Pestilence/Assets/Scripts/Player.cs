@@ -29,6 +29,7 @@ public class Player : MonoBehaviour
         }
         if(currentHealth <= 0)
         {
+            anim.SetTrigger("Hit");
             Time.timeScale = 0;
             loseScreen.SetActive(true);
         }

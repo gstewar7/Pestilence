@@ -13,7 +13,6 @@ public class Resume : MonoBehaviour
         menu.SetActive(false);
     }
 
-    // Update is called once per frame
     public void TaskOnClick()
     {
         menu.SetActive(false);
