@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 363.19995
     height: 730.8
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 109
+  controlID: 16
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 99
+  controlID: 17
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -195,7 +195,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 100
+  controlID: 18
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -398,10 +398,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 2cc7ffff
-      m_LastClickedID: 0
-      m_ExpandedIDs: 30fbffff
+      scrollPos: {x: 0, y: 144}
+      m_SelectedIDs: 7cf3ffff
+      m_LastClickedID: -3204
+      m_ExpandedIDs: e4ecffff7cf3ffff38fbffff685a0000f65e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -650,9 +650,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -13.10334, y: 5.663554, z: 16.91125}
+    m_Target: {x: -13.153776, y: 3.3354766, z: 6.763868}
     speed: 2
-    m_Value: {x: -13.10334, y: 5.663554, z: 16.91125}
+    m_Value: {x: -13.153776, y: 3.3354766, z: 6.763868}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -699,13 +699,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.012026076, y: 0.91620904, z: -0.03241081, w: 0.40031877}
+    m_Target: {x: 0.052317686, y: 0.83057064, z: -0.08216938, w: 0.5491755}
     speed: 2
-    m_Value: {x: 0.011421403, y: 0.91584957, z: -0.03102228, w: 0.40015844}
+    m_Value: {x: 0.051470995, y: 0.8303069, z: -0.080885105, w: 0.548998}
   m_Size:
     m_Target: 0.8660254
     speed: 2
-    m_Value: 10.722833
+    m_Value: 0.8660254
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -771,22 +771,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Models/Urban American Assets/Props/Vehicles
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Models/Urban American Assets/Props/Vehicles
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\anoyi\Downloads\UnityGame\Pestilence\CPS - Pestilence
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 69}
-    m_SelectedIDs: 56740000
-    m_LastClickedID: 29782
-    m_ExpandedIDs: 000000005674000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 147}
+    m_SelectedIDs: 8a750000
+    m_LastClickedID: 30090
+    m_ExpandedIDs: 000000004e740000227500007c7500008e75000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -814,7 +814,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000056740000
+    m_ExpandedIDs: 000000004e740000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
