@@ -12,8 +12,9 @@ public class DoorButtons : MonoBehaviour
     public float minimum = 0f;
     public float maximum =  1.0f;
     float progress = 1f;
-    public Transform Player;
+    public Transform myPlayer;
     private bool hasLighter;
+
     
     public GameObject message; 
 	// Start is called before the first frame update
@@ -21,7 +22,7 @@ public class DoorButtons : MonoBehaviour
 	{
         GameObject child = transform.GetChild(0).gameObject;
         thisRend = child.GetComponent<Renderer>();
-        hasLighter = Player.GetComponent<Player>().hasLighter;
+        hasLighter = myPlayer.GetComponent<Player>().hasLighter;
         //thisRend = GetComponentInChildren<Renderer>();
         message.SetActive(false);
 	}
@@ -36,9 +37,11 @@ public class DoorButtons : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.E) && InZone)
         {
             
-            hasLighter = Player.GetComponent<Player>().hasLighter;
+            hasLighter = myPlayer.GetComponent<Player>().hasLighter;
             if(hasLighter)
             {
+                Player.sigilCount -= 1;
+                Debug.Log("Sigil Burned");
                 Pressed = true;
                 lockedDoor.addPress();
                 doorSigil.SetActive(true);

@@ -1,0 +1,672 @@
+fileFormatVersion: 2
+guid: 79558806e5b52024b97245b29f5e6378
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ignacio UI Danger V3 Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1054
+        width: 594
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440227338620eb54b960bf7b1d0aaff1
+      internalID: -1252774950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Danger V3 Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1054
+        width: 594
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8db385794edfa42b8b70b1b193c120
+      internalID: -889348580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Danger V3 Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1054
+        width: 594
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b9153cb7ed80e42b3a0cccfd2a09ee
+      internalID: 687156284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Danger V3 Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 1054
+        width: 594
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354c59bca72e97b46ae21889bb29f369
+      internalID: -175900360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Danger V3 Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 1054
+        width: 594
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b70f9a417f118a499812f8ffe722f65
+      internalID: -1318080917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Danger V3 Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 790
+        width: 594
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bcdde214919cd14bbc2d8c6e4602b86
+      internalID: -1040398756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Danger V3 Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 790
+        width: 594
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bc49e5d7305014fad257baaec3bcde
+      internalID: -1016555310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Danger V3 Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 790
+        width: 594
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34107e532fb2fa344a99c69e0dd65f6d
+      internalID: 1262868961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Danger V3 Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 790
+        width: 594
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f2c227926a5c44db46d588497a94c1
+      internalID: 1300750297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Danger V3 Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 790
+        width: 594
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03df4b0a30972cf488d12b03960aaa79
+      internalID: 1296662202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Danger V3 Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 594
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f0d7013dbcd7c4eb7e2a3596f359d5
+      internalID: 1460240898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Danger V3 Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 528
+        width: 594
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6717f7e3b66193443a57ee8bfd3c8a7d
+      internalID: -1792856363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Danger V3 Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 528
+        width: 594
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28b6772469b88544aa3ab2968c33544
+      internalID: -1021726550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Danger V3 Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 528
+        width: 594
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6332221a726224a92f7066505c6e00
+      internalID: -284803541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Danger V3 Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 528
+        width: 594
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b51743955b3d864aaf16e84ae89cbe0
+      internalID: -1247036212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Danger V3 Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 265
+        width: 594
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a3fb5a20c673f41a3baa9d9ccf22fd
+      internalID: -2124404264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Danger V3 Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 265
+        width: 594
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28fb8049e3480fb48b48b76976b9efa6
+      internalID: 868043931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Danger V3 Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 265
+        width: 594
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25643ee3d39bbcb4dbcad978591a70b7
+      internalID: 617623691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Danger V3 Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 265
+        width: 594
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee727cf7062ef2c4b81704ecd23f9571
+      internalID: -1581032100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Danger V3 Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 265
+        width: 594
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d3da8fede84984ba28b2b7a26251a8
+      internalID: 509696675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Danger V3 Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 594
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c45a6dba517ac41b774f0495fd8ff8
+      internalID: 1708607083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Danger V3 Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1
+        width: 594
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9655c3d40be1649438a9ba1ab2f45780
+      internalID: 317237393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Danger V3 Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1
+        width: 594
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378dff432f65e484e977da49b9d9111e
+      internalID: -1513370264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Danger V3 Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 1
+        width: 594
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee07cf22b628fab47b9c60643f0002e0
+      internalID: -803178651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Danger V3 Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 10
+        width: 594
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1e549ce494e47449424ad1d4c2a151
+      internalID: 343370813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b41b3b6a3757f194485ccc83d83558d9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ignacio UI Danger V3 Spritesheet_19: 509696675
+      Ignacio UI Danger V3 Spritesheet_6: -1016555310
+      Ignacio UI Danger V3 Spritesheet_8: 1300750297
+      Ignacio UI Danger V3 Spritesheet_0: -1252774950
+      Ignacio UI Danger V3 Spritesheet_4: -1318080917
+      Ignacio UI Danger V3 Spritesheet_9: 1296662202
+      Ignacio UI Danger V3 Spritesheet_16: 868043931
+      Ignacio UI Danger V3 Spritesheet_21: 317237393
+      Ignacio UI Danger V3 Spritesheet_10: 1460240898
+      Ignacio UI Danger V3 Spritesheet_13: -284803541
+      Ignacio UI Danger V3 Spritesheet_11: -1792856363
+      Ignacio UI Danger V3 Spritesheet_17: 617623691
+      Ignacio UI Danger V3 Spritesheet_1: -889348580
+      Ignacio UI Danger V3 Spritesheet_18: -1581032100
+      Ignacio UI Danger V3 Spritesheet_22: -1513370264
+      Ignacio UI Danger V3 Spritesheet_12: -1021726550
+      Ignacio UI Danger V3 Spritesheet_15: -2124404264
+      Ignacio UI Danger V3 Spritesheet_14: -1247036212
+      Ignacio UI Danger V3 Spritesheet_24: 343370813
+      Ignacio UI Danger V3 Spritesheet_3: -175900360
+      Ignacio UI Danger V3 Spritesheet_5: -1040398756
+      Ignacio UI Danger V3 Spritesheet_23: -803178651
+      Ignacio UI Danger V3 Spritesheet_7: 1262868961
+      Ignacio UI Danger V3 Spritesheet_2: 687156284
+      Ignacio UI Danger V3 Spritesheet_20: 1708607083
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
