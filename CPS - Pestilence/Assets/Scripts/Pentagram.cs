@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Pentagram : MonoBehaviour
 {
@@ -35,11 +36,13 @@ public class Pentagram : MonoBehaviour
             if(hasBook)
             {
                 Burn();
-                Debug.Log("Pressed");
+                //Debug.Log("Pressed");
                 //StartCoroutine(Wait());
                 StartCoroutine(Burn());
                 StartCoroutine(Wait());
-                endScreen.SetActive(true);
+                //endScreen.SetActive(true);
+                SceneManager.LoadScene("PestilenceEnding");
+
             }
             else{
                 StartCoroutine(NeedBook());

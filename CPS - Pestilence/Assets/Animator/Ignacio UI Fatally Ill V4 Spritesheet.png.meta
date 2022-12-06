@@ -1,0 +1,672 @@
+fileFormatVersion: 2
+guid: e99d128de7f42424c92516f9d8b296fc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ignacio UI Fatally Ill V4 Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1044
+        width: 593
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ba8f313210cb14e85c5539701975c3
+      internalID: 123051880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Fatally Ill V4 Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1044
+        width: 593
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967487ec95bbedc4ebd202c71f6be4b8
+      internalID: 134532043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Fatally Ill V4 Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 1044
+        width: 593
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c309bfe8a232b439fc0a378c18cbff
+      internalID: 1568516360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Fatally Ill V4 Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 1044
+        width: 593
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4331444f5848ac4ab0d3c9155fcace1
+      internalID: 1142085932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Fatally Ill V4 Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2372
+        y: 1044
+        width: 593
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a822fab8d776ede4398d2276f1557eeb
+      internalID: 820013823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Fatally Ill V4 Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 783
+        width: 593
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5d2e866d5ff1a4ab3451b4a35fb446
+      internalID: -1506570709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Fatally Ill V4 Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 783
+        width: 593
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d59a455f5759384d8ebc9cfc7afb226
+      internalID: 1529512066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Fatally Ill V4 Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 783
+        width: 593
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc40488b249b284dab06026cdf3a811
+      internalID: 1678096646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Fatally Ill V4 Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 783
+        width: 593
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5206e2126d488c48b9440a8af3f9adc
+      internalID: -1468826362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Fatally Ill V4 Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 2372
+        y: 783
+        width: 593
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac265a419b590649834922cc8d7a394
+      internalID: -1974844980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Fatally Ill V4 Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 522
+        width: 593
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e95b7d1b51fce4e8fb524dc76eae40
+      internalID: 564932262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Fatally Ill V4 Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 522
+        width: 593
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1542eac896068524c8d06bf35a28e8e6
+      internalID: 423172973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Fatally Ill V4 Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 522
+        width: 593
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51908aa4128ab0440823bd0a5c801cda
+      internalID: 308249717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Fatally Ill V4 Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 522
+        width: 593
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f84d218f556a604482f4fb19c2d06f4
+      internalID: 1354046258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Fatally Ill V4 Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 2372
+        y: 522
+        width: 593
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c2a166948827644934629ecd037ff8
+      internalID: 900899950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Fatally Ill V4 Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 261
+        width: 593
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879002c549a75e04a9090702a0c08d6a
+      internalID: 1155222980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Fatally Ill V4 Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 261
+        width: 593
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62c737a964c5bb4c92e132e56a7a64a
+      internalID: 358400335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Fatally Ill V4 Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 261
+        width: 593
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6e938139831374195e7a47da67e544
+      internalID: 1852446839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Fatally Ill V4 Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 261
+        width: 593
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91077fc82e7c9d44a1f322e1d88ab52
+      internalID: -1302227406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Fatally Ill V4 Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 2372
+        y: 261
+        width: 593
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a9a88ef34e76346bb76f5962a9e626
+      internalID: -1272855341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Fatally Ill V4 Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 593
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64922804d78133e4eaa5b6151b6ad586
+      internalID: 467914772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Fatally Ill V4 Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 0
+        width: 593
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0926d8fecf138747baf1b5725e59ec9
+      internalID: -1966570051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Fatally Ill V4 Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 0
+        width: 593
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5204f6bb468f341459089c4500d85100
+      internalID: 125012804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Fatally Ill V4 Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 0
+        width: 593
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdba824d4e7e5c345a93ca6a1a025785
+      internalID: 1585936115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ignacio UI Fatally Ill V4 Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 2372
+        y: 0
+        width: 593
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bfe1f1f9771c9c43b1aa6fd125b4441
+      internalID: -1008624526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 20bccf10d62265c408a0aa213f6e5a3f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ignacio UI Fatally Ill V4 Spritesheet_23: 1585936115
+      Ignacio UI Fatally Ill V4 Spritesheet_5: -1506570709
+      Ignacio UI Fatally Ill V4 Spritesheet_6: 1529512066
+      Ignacio UI Fatally Ill V4 Spritesheet_24: -1008624526
+      Ignacio UI Fatally Ill V4 Spritesheet_9: -1974844980
+      Ignacio UI Fatally Ill V4 Spritesheet_18: -1302227406
+      Ignacio UI Fatally Ill V4 Spritesheet_10: 564932262
+      Ignacio UI Fatally Ill V4 Spritesheet_0: 123051880
+      Ignacio UI Fatally Ill V4 Spritesheet_16: 358400335
+      Ignacio UI Fatally Ill V4 Spritesheet_2: 1568516360
+      Ignacio UI Fatally Ill V4 Spritesheet_17: 1852446839
+      Ignacio UI Fatally Ill V4 Spritesheet_4: 820013823
+      Ignacio UI Fatally Ill V4 Spritesheet_1: 134532043
+      Ignacio UI Fatally Ill V4 Spritesheet_15: 1155222980
+      Ignacio UI Fatally Ill V4 Spritesheet_14: 900899950
+      Ignacio UI Fatally Ill V4 Spritesheet_13: 1354046258
+      Ignacio UI Fatally Ill V4 Spritesheet_21: -1966570051
+      Ignacio UI Fatally Ill V4 Spritesheet_19: -1272855341
+      Ignacio UI Fatally Ill V4 Spritesheet_22: 125012804
+      Ignacio UI Fatally Ill V4 Spritesheet_8: -1468826362
+      Ignacio UI Fatally Ill V4 Spritesheet_3: 1142085932
+      Ignacio UI Fatally Ill V4 Spritesheet_20: 467914772
+      Ignacio UI Fatally Ill V4 Spritesheet_11: 423172973
+      Ignacio UI Fatally Ill V4 Spritesheet_7: 1678096646
+      Ignacio UI Fatally Ill V4 Spritesheet_12: 308249717
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
     public float currentHealth = 100;
     private Animator anim;
     private float temp;
+    static public int sigilCount = 4;
     public bool hasLighter = false; 
     public bool hasBook = false;
     public GameObject loseScreen;
@@ -29,6 +30,7 @@ public class Player : MonoBehaviour
         }
         if(currentHealth <= 0)
         {
+            anim.SetTrigger("Hit");
             Time.timeScale = 0;
             loseScreen.SetActive(true);
         }
