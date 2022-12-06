@@ -8,12 +8,15 @@ public class Player : MonoBehaviour
     private Animator anim;
     private float temp;
     public bool hasLighter = false; 
+    public bool hasBook = false;
+    public GameObject loseScreen;
     // Start is called before the first frame update
     void Start()
     {
         
         temp = currentHealth;
         anim = GetComponent<Animator>();
+        loseScreen.SetActive(false);
     }
 
     // Update is called once per frame
@@ -24,5 +27,11 @@ public class Player : MonoBehaviour
             anim.SetTrigger("Hit");
             temp = currentHealth;
         }
+        if(currentHealth <= 0)
+        {
+            Time.timeScale = 0;
+            loseScreen.SetActive(true);
+        }
+        
     }
 }
